@@ -1,0 +1,637 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logos .logo {
+  width: 218px;
+  height: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.logos .btnFee {
+  width: 128px;
+  height: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.summary {
+  margin-bottom: 30px;
+  height: 534px;
+}
+
+.summary .text-info {
+  margin-top: 150px;
+}
+
+.platform {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.platform .pt {
+  width: 244px;
+  height: 221px;
+  margin-bottom: 24px;
+}
+
+.platform .pt .iconPT {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.platform .pt .name {
+  margin: 24px auto;
+}
+
+.roleTittle {
+  margin-top: 100px;
+}
+
+.roleRemark {
+  margin-top: 16px;
+}
+
+.roles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.roles .role {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+}
+
+.roles .role img {
+  width: 260px;
+  height: 260px;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.roles .role .text-info {
+  margin: 16px auto;
+}
+
+.roles .role .detail {
+  margin-bottom: 24px;
+}
+
+.talksFee {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.talksFee .talks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.talksFee .talks .talk {
+  width: 230px;
+  height: 280px;
+  padding-left: 32px;
+  padding-top: 32px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+}
+
+.talksFee .talks .talk .imgOutside {
+  width: 86px;
+  height: 86px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+}
+
+.talksFee .talks .talk .textB {
+  font: normal normal bold 18px/26px Noto Sans TC;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.talksFee .talks .talk .text {
+  margin-right: 32px;
+  margin-bottom: 48px;
+  font: normal normal normal 16px/24px Noto Sans TC;
+}
+
+.talksFee .fee {
+  margin: auto auto;
+  margin-left: 100px;
+}
+
+.talksFee .fee .st {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.talksFee .fee .btnFee {
+  width: 136px;
+  height: 50px;
+}
+
+.comments {
+  margin-top: 48px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comments .frame {
+  position: relative;
+}
+
+.comments .frame .userIcon {
+  height: 80px;
+  margin-bottom: 24px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+
+.comments .bg {
+  margin-top: 56px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+}
+
+.comments .middle {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.comments .comment {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.comments .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comments .rating .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 20px;
+}
+
+.comments .rating .stars img {
+  height: 16px;
+  margin-right: -37px;
+}
+
+.pt {
+  width: 10px;
+  height: 10px;
+  margin: auto 5px;
+}
+
+.ptEnd {
+  width: 16px;
+  height: 10px;
+  margin: auto 5px;
+}
+
+.footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer img {
+  margin: auto;
+  width: 100%;
+}
+
+.footer .txt {
+  top: 0%;
+  position: absolute;
+  margin: auto;
+  margin-top: 18%;
+}
+
+.footer .btnFee {
+  top: 0%;
+  position: absolute;
+  margin-left: 5%;
+  margin: auto;
+  margin-top: 25%;
+  width: 136px;
+  height: 50px;
+}
+
+.footerBar {
+  background-color: #F5F5F5;
+}
+
+.copyRight {
+  margin: 16px auto;
+}
+
+.fab {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bgHome {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/home.svg), url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/bg_home.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right 100px, top right;
+  background-size: 532px, auto;
+}
+
+.mobileHome {
+  visibility: hidden;
+  height: 0;
+}
+
+.bgBall1 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball01.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left -180px;
+  background-size: 360px;
+}
+
+.bgBall2 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball02.svg);
+  background-repeat: no-repeat;
+  background-position: top right -100px;
+  background-size: 310px;
+}
+
+.bgBall3 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball03.svg);
+  background-repeat: no-repeat;
+  background-position: top 20px left 15px;
+  background-size: 150px;
+}
+
+.bannerImg {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/banner.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 559px;
+}
+
+.explain {
+  margin-top: 92px;
+  margin-bottom: 16px;
+}
+
+.explainTxt {
+  margin-bottom: 240px;
+}
+
+.flexSelsect {
+  margin-top: 30px;
+}
+
+.selectItem {
+  width: 130px;
+  height: 50px;
+  margin: auto 8px;
+}
+
+.version {
+  margin: auto 8px;
+  margin-top: 50px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.version .versionTittle {
+  padding: 10px;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.version .versionContent {
+  border-radius: 0px 0px 12px 12px;
+}
+
+.version .versionText {
+  margin: 32px auto;
+}
+
+.version .varView {
+  width: 169px;
+  height: 108px;
+  border-radius: 12px;
+  background: #F5F5F5;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.version .unit {
+  margin-left: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.version .equal {
+  margin: auto 16px;
+}
+
+.version .versionItem {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.version .btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.question {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.questionOpen .flexSB .fs-5 {
+  padding-bottom: 16px;
+}
+
+.bannerBg {
+  border-radius: 0px 0px 0px 300px;
+  height: 470px;
+  background: #F7F9FD;
+  border: 1px solid yellow;
+}
+
+.bgBallFee {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball03.svg);
+  background-repeat: no-repeat;
+  background-position: left -200px center;
+  background-size: 360px;
+}
+
+.hMg {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.flexR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flexSB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fw {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 750px) {
+  .bgHome {
+    background-image: url();
+  }
+  .mobileHome {
+    visibility: visible;
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/bg_home_sm.svg);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: contain;
+  }
+  .bgBall1 {
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball01.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left -180px;
+    background-size: 126px;
+  }
+  .bgBall2 {
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball02.svg);
+    background-repeat: no-repeat;
+    background-position: top right -50px;
+    background-size: 135px;
+  }
+  .bgBall3 {
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball03.svg);
+    background-repeat: no-repeat;
+    background-position: top 20px left -70px;
+    background-size: 150px;
+  }
+  .hMg {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .summary {
+    height: auto;
+  }
+  .summary .text-info {
+    margin-top: 30px;
+  }
+  .platform {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .roles {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .talksFee {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .talksFee .talks {
+    margin-left: 100px;
+    margin-right: 100px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .talksFee .fee {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .talksFee .fee div {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin: auto auto;
+  }
+  .comments {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .comments .middle {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer img {
+    content: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/footer_sm.svg);
+    margin-bottom: 100px;
+  }
+  .footer .txt {
+    margin-top: 75%;
+  }
+  .footer .btnFee {
+    margin-top: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  .bannerImg {
+    background-image: none;
+  }
+  .bannerBg {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: top 72px;
+  }
+  .logoFee {
+    left: 20px;
+  }
+  .mobileBanner {
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/banner_sm.svg);
+    background-repeat: no-repeat;
+    background-position: left top -130px;
+    height: 495px;
+  }
+  .mobileBanner .hMg {
+    position: absolute;
+  }
+  .mobileBanner .explain {
+    top: 90px;
+  }
+  .mobileBanner .explainTxt {
+    top: 230px;
+  }
+}
+/*# sourceMappingURL=all.css.map */

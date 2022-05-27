@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/all.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="js/all.js"></script>
+</head>
+
+<body>
+    <div class="bannerBg">
+        <div class="bannerImg">
+            <div class="hMg flexSB logos">
+                <img class="logo" src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/logo.png"
+                alt="">
+                <div type="button" class="rounded-pill btn btn-danger btnFee"><a href="index.html">方案費用</a></div>
+            </div>
+            <div class="mobileBanner">
+                <div class="hMg explain fs-2">計費方式說明</div>
+                <div class="hMg explainTxt">聊天機器人幫您實現增粉、轉單、客服等目標</div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <center class="fs-3 flexSelsect">彈性選擇，提供您選擇最適合的方案</center>
+    <div class="center flexR gap-2">
+        <button type="button" class="rounded-pill btn btn-outline-info center selectItem" onclick="feeClick(this)">10000位</button>
+        <button type="button" class="rounded-pill btn btn-outline-info center selectItem" onclick="feeClick(this)">15000位</button>
+        <button type="button" class="rounded-pill btn btn-outline-info center selectItem" onclick="feeClick(this)">20000位</button>
+        <button type="button" class="rounded-pill btn btn-outline-info center selectItem" onclick="feeClick(this)">25000位</button>
+        <button type="button" class="rounded-pill btn btn-outline-info center selectItem" onclick="feeClick(this)">>25000位</button>
+    </div>
+
+    <div class="bgBallFee">
+        <div class="hMg center fw">
+            <div class="version">
+                <center class="shadow-sm mb-2 fs-4 versionTittle">基本版</center>
+                <div class="versionContent">
+                    <div class="shadow-sm p-4 mb-3 ">
+                        <center class="versionText">提供中小企業最必要的功能<br>完整建立分眾以達到精準的行銷自動化</center>
+                        <div class="center flexR">
+                            <div class="center varView">
+                                <div>訂閱用戶數</div>
+                                <div class="flexR">
+                                    <div class="fs-3 jsPeople">10000</div>
+                                    <div class="unit">位</div>
+                                </div>
+                            </div>
+                            <div class="equal">=</div>
+                            <div class="center varView">
+                                <div>試算每月的費用</div>
+                                <div class="flexR">
+                                    <div class="fs-3" id="jsDollarBase">600</div>
+                                    <div class="unit">TWD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flexR versionItem">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                                alt="">
+                            <div>支援Messenger/instagram或LINE渠道</div>
+                        </div>
+                        <div class="flexR versionItem">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                                alt="">
+                            <div>10個進階套件</div>
+                        </div>
+                        <div class="flexR versionItem">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                                alt="">
+                            <div>可設定50種分眾標籤</div>
+                        </div>
+                        <div class="flexR versionItem">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                                alt="">
+                            <div>客服人機轉接</div>
+                        </div>
+                        <div class="center">
+                            <div type="button" class=" btn btn-info rounded-pill btnFee">立即體驗</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="version">
+                <center class="shadow-sm mb-2 fs-4 versionTittle">標準版</center>
+                <div class="versionContent">
+                    <div class="shadow-sm p-4 mb-3">
+                        <center class="versionText">建立企業流量池，全通路數據整合與交換<br>高可靠性服務</center>
+                        <div class="center flexR">
+                            <div class="center varView">
+                                <div>訂閱用戶數</div>
+                                <div class="flexR">
+                                    <div class="fs-3 jsPeople">10000</div>
+                                    <div class="unit">位</div>
+                                </div>
+                            </div>
+                            <div class="equal">=</div>
+                            <div class="center varView">
+                                <div>試算每月的費用</div>
+                                <div class="flexR">
+                                    <div class="fs-3" id="jsDollarStd">1600</div>
+                                    <div class="unit">TWD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flexR versionItem">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                                alt="">
+                            <div>支援多個Messenger、instagram和LINE渠道</div>
+                        </div>
+                        <div class="flexR versionItem">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                                alt="">
+                            <div>20個進階及行銷互動套件</div>
+                        </div>
+                        <div class="flexR versionItem">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                                alt="">
+                            <div>可設定500種分眾標籤</div>
+                        </div>
+                        <div class="flexR versionItem">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                                alt="">
+                            <div>客服人機轉接+自動指派專員處理</div>
+                        </div>
+                        <div class="center">
+                            <div type="button" class=" btn btn-info rounded-pill btnFee">立即體驗</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <center class="fs-3 question">常見問題</center>
+    <div class="shadow-sm p-3 mb-3 bg-body rounded flexSB hMg">
+        <div>我要怎麼變更方案?</div>
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg"
+            alt="">
+    </div>
+    <div class="shadow-sm p-3 mb-3 bg-body rounded flexSB hMg">
+        <div>如果我沒有LINE官方帳號怎麼辦?</div>
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg"
+            alt="">
+    </div>
+    <div class="shadow-sm p-3 pb-3 mb-5 bg-body rounded hMg questionOpen">
+        <div class="flexSB">
+            <div class="text-info fs-5">非上班日有克服支援嗎?</div>
+            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg"
+                alt="">
+        </div>
+        <div>當然哦!我們錢都收了，不會拋棄你的!<br>請您直接來我們公司，我們假日也都在辦公室。</div>
+    </div>
+
+    <div class="center footerBar">
+        <div class="copyRight">© 2022chatTalker.All Rights Reserved.</div>
+    </div>
+    <div type="button" class="center btn btn-info rounded-circle fab" onclick="topClick()">TOP</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
